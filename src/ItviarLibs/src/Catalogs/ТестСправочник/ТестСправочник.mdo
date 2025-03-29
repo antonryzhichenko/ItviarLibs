@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96d374ed-cfb5-42b8-be7e-a844df74b83a">
+  <producedTypes>
+    <objectType typeId="fb043e5a-5798-4585-a34d-85332301f4a3" valueTypeId="06488930-418a-446d-b2d8-a506f8ddbaa0"/>
+    <refType typeId="29546551-c637-474d-8836-c57be62e1a89" valueTypeId="00a734ca-ea90-41f5-a7c5-fee7bdcac9ec"/>
+    <selectionType typeId="4e2f230f-0c39-4c3d-8830-103b6b0f9d73" valueTypeId="a95df8e5-fe96-427d-8389-414c1a92e8bb"/>
+    <listType typeId="3165520b-34f5-4f48-a9e4-62d655924158" valueTypeId="31480aa8-a466-4ff1-ac7f-2d5a1209dd3c"/>
+    <managerType typeId="9677b4f1-2aae-4bf9-a297-445d2e64efc1" valueTypeId="5826aade-4065-4df4-b27c-ce4275484c20"/>
+  </producedTypes>
+  <name>ТестСправочник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест справочник</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТестСправочник.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТестСправочник.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТестСправочник.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="1f15bf0a-d0c8-4b8f-abf8-0ab20128781f">
+    <name>ТестРеквизитСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест реквизит строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a517395-eb0f-4d73-a662-0d3bcf7d7a3e">
+    <name>ТестРеквизитЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест реквизит число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2740307e-7d70-41f6-8c49-e251b5f928c6">
+    <name>ТестРеквизитДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест реквизит дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e71c41f-a931-498d-aa5c-9c9d9e97d17e">
+    <name>ТестРеквизитБулево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест реквизит булево</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2ad12b18-6c23-4814-9ce0-3687752a25cf">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
