@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a68ff32-12f5-4a73-bfca-60934d1f2d90">
+  <name>Conf</name>
+  <synonym>
+    <key>ru</key>
+    <value>Conf</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="cdcff72d-dc5c-46fd-b3e2-068fa8ec7af5"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e1156132-77a9-4b65-bb4e-f41e45c26b5f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="10feb93c-76fd-416c-b14f-b60bd94cc3b4"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a2d31fb2-f748-44e7-8ad4-aba6615e6b52"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3b989743-22fe-4e3b-b45c-9208539d307d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f767b97e-8a49-49b1-a0bb-fe0dcd22fc92"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="64c6562a-1a41-475a-9a7d-480637d85a10"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="50ae68eb-39bb-46e7-b147-2da6a34425d2">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.ДФИ</commonModules>
+  <commonModules>CommonModule.ДФИ_КотоваДмитрияВадимовича</commonModules>
+</mdclass:Configuration>
