@@ -38,7 +38,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <commonModules>CommonModule.ДФИ</commonModules>
+  <commonModules>CommonModule.А_ДФИ</commonModules>
   <commonModules>CommonModule.ДФИ_КотоваДмитрияВадимовича</commonModules>
   <catalogs>Catalog.ТестСправочник</catalogs>
 </mdclass:Configuration>
