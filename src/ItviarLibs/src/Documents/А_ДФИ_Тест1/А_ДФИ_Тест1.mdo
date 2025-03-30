@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="506ff2e8-27c1-4bca-9068-0a951d06d618">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="506ff2e8-27c1-4bca-9068-0a951d06d618">
   <producedTypes>
     <objectType typeId="5858c999-24c9-4354-bb36-6d013858d82d" valueTypeId="e14c4399-5bca-465c-b2cc-3f5ce21c8526"/>
     <refType typeId="27361b2e-2206-4b6f-b3cc-e9cf18be33d8" valueTypeId="f790d4a5-8c68-4c66-a5be-ae78915bf456"/>
@@ -26,6 +26,42 @@
   <defaultObjectForm>Document.А_ДФИ_Тест1.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8ab66e7b-6075-43df-bc80-91c9b0d798a4">
+    <name>РеквизитСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7964a083-0caa-4921-adb0-ea1872047b79">
+    <name>РеквизитЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="c17e7d2f-68c6-4937-a54a-374f391eca1d">
     <name>ФормаДокумента</name>
     <synonym>
