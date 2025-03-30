@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="506ff2e8-27c1-4bca-9068-0a951d06d618">
+  <producedTypes>
+    <objectType typeId="5858c999-24c9-4354-bb36-6d013858d82d" valueTypeId="e14c4399-5bca-465c-b2cc-3f5ce21c8526"/>
+    <refType typeId="27361b2e-2206-4b6f-b3cc-e9cf18be33d8" valueTypeId="f790d4a5-8c68-4c66-a5be-ae78915bf456"/>
+    <selectionType typeId="5b0b9748-b701-4bce-b62c-4cc4b69c39e4" valueTypeId="487e6971-6118-4368-aebc-3275545d0c07"/>
+    <listType typeId="41911e11-ab10-4dec-a345-609fff10bf03" valueTypeId="97c9ed4f-41e1-43ee-aa04-eafec8f17219"/>
+    <managerType typeId="265bee7d-d48c-4582-b5df-6f2f7e1a7756" valueTypeId="0c05f0ad-4a4b-43c1-be5a-76ea7105d594"/>
+  </producedTypes>
+  <name>А_ДФИ_Тест1</name>
+  <synonym>
+    <key>ru</key>
+    <value>А ДФИ тест1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.А_ДФИ_Тест1.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.А_ДФИ_Тест1.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="c17e7d2f-68c6-4937-a54a-374f391eca1d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

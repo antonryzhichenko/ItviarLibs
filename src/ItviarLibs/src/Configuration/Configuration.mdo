@@ -41,4 +41,5 @@
   <commonModules>CommonModule.А_ДФИ</commonModules>
   <commonModules>CommonModule.ДФИ_КотоваДмитрияВадимовича</commonModules>
   <catalogs>Catalog.ТестСправочник</catalogs>
+  <documents>Document.А_ДФИ_Тест1</documents>
 </mdclass:Configuration>
